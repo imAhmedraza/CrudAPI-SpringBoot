@@ -17,6 +17,7 @@ public class CrudApiApplication implements CommandLineRunner {
 	@Autowired
 	private EmployeeRepository employeeRepository;
 
+	//sample data for postman/database
 	@Override
 	public void run(String... args) throws Exception {
 
